@@ -1,0 +1,85 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #141414;
+  font-family: sans-serif;
+}
+
+main {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+li p {
+  text-align: center;
+  color: white;
+  opacity: 50%;
+}
+
+.user img {
+  display: block;
+  border-radius: 5px;
+}
+
+button {
+  background: transparent;
+  text-align: center;
+  color: white;
+  opacity: 50%;
+  border-style: none;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+
+#add-user img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  opacity: 50%;
+  margin: 3.1rem 1rem;
+}
+
+#add-user img:hover {
+  opacity: 100%;
+  transition: opacity 0.3s ease;
+}
+
+#add-user img:hover ~ p {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.user img:hover {
+  outline: 1.5px solid white;
+  transition: outline 0.3s ease;
+}
+
+.user img:hover ~ p {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+img,
+p,
+button {
+  cursor: pointer;
+}
